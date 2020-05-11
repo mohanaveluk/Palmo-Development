@@ -1,8 +1,9 @@
 <?php
 $servername = "localhost";
-$username = "palmodata";
-$password = "palmodata2018";
-$dbname   = "PALMOAPR2018";
+$servername = "35.222.107.95";
+$username = "root";
+$password = "blueBonnet@1";
+$dbname   = "palmodata";
 
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 
