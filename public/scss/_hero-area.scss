@@ -1,0 +1,223 @@
+/* ==========================================================================
+   Hero Area
+   ========================================================================== */
+  .hero-area{
+    background: url(../img/hero-area.jpg) no-repeat;
+    background-size: cover;
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+    .overlay{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0px;     
+      left: 0px;
+      background: $preset;
+      opacity: 0.7;
+    }
+    .contents{
+      padding: 160px 0 140px;
+      h2{ 
+        color: #fff;
+        font-size: 52px;
+        font-weight: 300;
+        margin-bottom: 25px;
+      }
+      h4{
+        font-size: 16px;
+        color: #fff;
+        font-weight: 300;
+        line-height: 30px;
+        margin-bottom: 20px;
+      }
+      p{
+        color: #fff;
+        font-size: 14px;
+        line-height: 26px;
+      }
+      .btn{
+        margin-top: 40px; 
+        text-transform: uppercase;
+      }
+    }
+
+    .banner_bottom_btn{
+      margin-top: 40px;
+      i{
+        color: #fff;
+        font-size: 48px;
+        -webkit-transition: all 0.2s linear;
+        -moz-transition: all 0.2s linear;
+        -o-transition: all 0.2s linear;
+        transition: all 0.2s linear;
+        &:hover{
+          color: $preset;
+        }
+      }
+    }
+  }
+
+  .intro-img{
+    padding: 148px 0 0px;
+    img{
+      display: block;
+      height: auto;
+      max-width: 100%;
+    }
+  }
+
+/* ==========================================================================
+ Hero Production version
+ ========================================================================== */
+.hero-area-2{
+    background: url(../img/bg/hero-area-2.jpg) fixed no-repeat;
+    background-size: cover;
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+    .overlay{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0px;     
+      left: 0px;
+      background: rgba(0, 0, 0, 0.8);
+      opacity: 0.8;
+    }
+    .contents{
+      padding: 160px 0 140px;
+      h3{
+        color: #fff;
+        font-size: 48px;
+        font-weight: 500;
+      }
+      h2{ 
+        color: #fff;
+        font-size: 42px;
+        margin-bottom: 30px;
+        font-weight: 700;
+      }
+      h4{
+        font-size: 18px;
+        color: #fff;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0.5px;
+        margin-bottom: 20px;
+      }
+      p{
+        font-size: 14px;
+        color: #fff;
+        line-height: 26px;
+      }
+      .header-button{
+        margin-top: 30px;
+      }
+      .btn{
+        margin: 10px;
+        text-transform: uppercase;
+      }
+      .tag-type{
+        ul{
+          position: relative;
+          li{
+            display: inline-block;
+            padding: 10px;
+            position: relative;
+            a{
+              color: #fff;
+              text-transform: uppercase;
+            }
+          }
+          li:before{
+            content: '';
+            width: 4px;
+            height: 4px;
+            background: #fff;
+            position: absolute;
+            top: 19px;
+            right: -5px;
+            border-radius: 50%;
+            &:last-child{
+              display: none;
+            }
+          }
+          li:last-child:before{
+            background: transparent;
+          }
+        }
+        ul:before{
+          content: '';
+          width: 40px;
+          height: 1px;
+          background: #f1f1f1;
+          position: absolute;
+          top: 20px;
+          margin-left: -45px;
+        }
+        ul:after{
+          content: '';
+          width: 40px;
+          height: 1px;
+          background: #f1f1f1;
+          position: absolute;
+          top: 20px;
+          margin-left: 6px;
+        }
+      }
+       .arrow-down-icon{
+        border: 2px solid #fff;
+        width: 42px;
+        height: 42px;
+        line-height: 42px;
+        margin: 30px auto;
+        border-radius: 50%;
+        font-size: 18px;
+        a{
+          color: #fff;
+        }
+      }
+    }
+  }
+
+/* ==========================================================================
+   Video Background
+   ========================================================================== */
+  #video-area{
+    overflow: hidden;
+    position: relative;
+    .contents{
+      padding: 160px 0 80px;
+      h1{ 
+        color: #fff;
+        font-size: 50px;
+        font-weight: 300;
+        margin-bottom: 25px;
+        line-height: 70px;
+      }
+      p{
+        font-size: 14px;
+        color: #fff;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0.5px;
+      }
+      .btn{margin:20px 10px; text-transform: uppercase;}
+    }
+    .banner_bottom_btn{
+      margin-top: 40px;
+      i{
+        color: #fff;
+        font-size: 48px;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        &:hover{
+          color: $preset;
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,80 @@
+/* ==========================================================================
+ Team Section
+   ========================================================================== */
+   .single-team:hover .team-details{
+    opacity: 1;
+   }
+   .single-team{
+      position: relative;
+      background: #f9f9f9;
+      border-radius: 4px;
+      -webkit-transition: 0.5s;
+      transition: 0.5s;
+      box-shadow: 0px 10px 50px 0px rgba(84,110,122,0.15);
+      border-radius: 0px;
+      overflow: hidden;
+      &:hover{
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px);
+        box-shadow: 0px 10px 50px 0px rgba(84,110,122,0.35);
+      }
+    img{
+      width: 100%;
+    }
+    .team-inner{
+      -webkit-transition: 0.5s;
+      transition: 0.5s;
+    }
+    .team-details{
+      padding: 20px;
+      width: 100%;
+      text-align: center;
+      -webkit-transition: 0.5s;
+      -moz-transition: 0.5s;
+      transition: 0.5s;
+      .team-title{
+        margin-bottom: 5px;
+        font-size: 18px;
+        font-weight: 500;
+        color: #263238;
+      }
+      p{
+        margin-bottom: 15px;
+      }
+    }
+    .social-list{
+      li{
+        display: inline-block;
+        a{
+          display: block;
+          height: 34px;
+          line-height: 34px;
+          text-align: center;
+          width: 34px;
+          color: $preset;
+          font-size: 14px;
+          background: #fff;
+          border-radius: 50px;
+          -webkit-transition: 0.5s;
+          -moz-transition: 0.5s;
+          transition: 0.5s;
+        }
+      }
+      .facebook a:hover{
+        background: #4867aa;
+        color: #fff;
+      }
+      .twitter a:hover{
+        background: #1da1f2;
+        color: #fff;
+      }
+      .google-plus a:hover{
+        background: #dd4d42;
+        color: #fff;
+      }
+      .linkedin a:hover{
+        background: #007bb6;
+        color: #fff;
+      }
+    }
+   }

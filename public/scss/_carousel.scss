@@ -1,0 +1,118 @@
+/* ==========================================================================
+  Slider
+   ========================================================================== */
+   #carousel-area {
+    overflow: hidden;
+    background: #2c3e50;
+    .carousel-item {
+      background-size: 100%;
+      .carousel-caption {  
+        top: 32%;
+        right: 10%;
+        left: 12%;
+        text-shadow: none;
+        padding-top: 0;
+        padding-bottom: 0;
+        h3{
+          color: #fff;
+          font-weight: 500;
+          font-size: 26px;
+          line-height: 38px;
+        }
+        h2{
+          font-size: 80px;
+          font-weight: 700;
+          color: #fff;
+        }
+        h4{
+          color: #ffffff;
+          font-size: 18px;
+          font-weight: 500;
+          margin-bottom: 30px;
+        }
+      }
+    }
+    .carousel-control{
+      display: none;
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+    }
+    &:hover {
+      .carousel-control {
+        display: block;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        -webkit-animation-name: fadeIn;
+        animation-name: fadeIn;
+      }
+    }
+    .carousel-control-next, .carousel-control-prev{
+      opacity: 1;
+      i{
+        width: 48px;
+        line-height: 48px;
+        height: 48px;
+        color: #fff;
+        font-size: 24px;
+        display: inline-block;
+        background: $preset;
+        border-radius: 30px;
+        -webkit-transition: all 0.2s linear;
+        -moz-transition: all 0.2s linear;
+        -o-transition: all 0.2s linear;
+        transition: all 0.2s linear;
+        &:hover{
+          opacity: 0.9;
+        }
+      }
+    }
+  }
+  #carousel-area .carousel-indicators li:hover,
+  #carousel-area .carousel-indicators li.active {
+    opacity: 1;   
+  }
+  #carousel-area .carousel-indicators{
+    bottom: 35px;
+    li{
+      width: 30px;
+      height: 7px;
+      border-radius: 4px;
+    }
+  }
+  #slider-area{
+    margin-top: -1px;
+    .btn{
+      margin-right: 15px;
+    }
+    .large_white{
+      color: #fff;
+    }
+    .about-info{
+      p{
+        color: #333;
+      }
+    }
+  }
+
+  .contents{
+   p{
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 50px;
+    }
+    .header-button{
+      .btn i{
+        margin-left: 10px;
+      }
+    }
+  }
+  
+  

@@ -1,0 +1,154 @@
+ /* ==========================================================================
+  About Section Style
+   ========================================================================== */
+  #about{
+    position: relative;
+    background: #f9f9f9;  
+    .box-item {
+      padding: 15px 0;
+      .icon {
+        float: left;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        i {
+          color: $preset;
+          display: inline-block;
+          font-size: 36px;
+          margin-bottom: 20px;
+          -webkit-transition: all 0.3s ease-in-out;
+          -moz-transition: all 0.3s ease-in-out;
+          -o-transition: all 0.3s ease-in-out;
+          transition: all 0.3s ease-in-out;
+        }
+      }
+      .text {
+        margin-left: 64px;
+        h4 {
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 22px;
+        }
+        p {
+          font-size: 14px;
+          line-height: 26px;
+        }
+      }
+    }
+    .show-box{
+      margin: 30px 40px;
+    }
+  }
+
+  /* ==========================================================================
+  About Area
+  ========================================================================== */
+  #about-area{
+    .about-thumb{
+      position: relative;
+      z-index: 1;
+      margin-left: 80px;
+      margin-top: 60px;
+      img{
+        width: 100%;
+        height: auto;
+      }
+    }
+    .about-thumb-2{
+      position: absolute;
+      z-index: 5;
+      left: 5%;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+    }
+  }
+   
+ /* ==========================================================================
+   Clients 
+   ========================================================================== */
+  #clients{
+    background: #f9f9f9;
+    .client-item-wrapper {
+      text-align: center;
+      margin: 0 5px;
+      -moz-transition: all .6s ease;
+      -webkit-transition: all .6s ease;
+      transition: all .6s ease;
+    }
+  }
+  #clients #clients-scroller img:hover {
+    -moz-transition: all .6s ease;
+    -webkit-transition: all .6s ease;
+    transition: all .6s ease;
+    opacity: 1.0;
+  }
+  #clients #clients-scroller .owl-pagination {
+    display: none;
+  }
+
+   /* ==========================================================================
+    call to action
+   ========================================================================== */
+   #cta{
+    background: url(../img/bg/bg-cta.jpg) fixed;
+    background-size: cover;
+    h5{
+      color: #fff;
+      font-size: 32px;
+      font-weight: 500;
+      line-height: 48px;
+    }
+    .btn{
+      margin: 30px 10px;
+    }
+   }  
+  // Call to Actio Two
+  .call-action{
+    background: #f9f9f9;
+    .cta-trial{
+      h3{
+          font-size: 28px;
+          font-weight: 500;
+          margin-bottom: 28px;
+          letter-spacing: 1px;
+      }
+      p{
+        margin-bottom: 30px;
+      }
+    }
+  }
+
+ /* ==========================================================================
+ Video promo Style
+ ========================================================================== */
+ .video-promo{
+    background: url(../img/bg/video.jpg);
+    position: relative;
+    .video-promo-content{
+      color: #fff;
+      .video-popup{
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        text-align: center;
+        border: 3px solid #fff;
+        color: #fff;
+        border-radius: 50%;
+        display: inline-block;
+        font-size: 26px;
+      }
+      h2{
+        margin-top: 30px;
+        color: #fff;
+        font-size: 30px;
+        text-transform: uppercase;
+      }
+      p{
+        color: #fff;
+      }
+    }
+   }
+   

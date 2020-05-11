@@ -1,0 +1,62 @@
+/* ==========================================================================
+ Counter Section Style
+ ========================================================================== */
+ .counters{
+  background: url(../img/bg/bg-counter.jpg) fixed;
+  position: relative;
+  .facts-item{
+    text-align: center;
+    color: #fff;
+    border: 1px dotted #fff;
+    border-radius: 4px;
+    padding: 30px;
+    .icon{
+      margin-bottom: 15px;
+      i{
+        font-size: 40px;
+        color: #fff;
+      }
+    }
+    
+    .fact-count{
+      h3{
+        font-size: 40px;
+        color: #fff;
+        font-weight: 400;
+        line-height: 40px;
+      }
+      h4{
+        font-size: 15px;
+        color: #fff;
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+// Counret Section Two
+.counter-item{
+  text-align: center;
+  padding: 30px;
+  background: #f9f9f9;
+  border: 1px solid #eaeaea;
+  margin: 15px 0;
+  .icon{
+    margin-bottom: 20px;
+    i{    
+      font-size: 40px;
+      color: $preset;
+    }
+  }
+  .fact-count{
+    h3{
+      font-size: 50px;
+      font-weight: 500;
+      line-height: 60px;
+    }
+    h4{
+      font-size: 18px;
+      margin-bottom: 0;
+    }
+  }
+}
