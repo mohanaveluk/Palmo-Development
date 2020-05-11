@@ -20,3 +20,7 @@ exports.addContact = async (req, res, next) => {
         return res.status(422).json({status: 'true', message: error.message});
     }
 };
+
+exports.getContacts = async (req, res, next) => {
+    return res.status(200).json({status: 'true', message: 'List out all the contact lists'});
+}
