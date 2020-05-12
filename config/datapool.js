@@ -1,9 +1,9 @@
 const mysql = require('mysql2');
 
 const pool = mysql.createPool({
-    host:"35.222.107.95",
-    user:"root",
-    password:"blueBonnet@1",
+    host:"dentalmysql.cc6ydrz3sjwp.us-east-1.rds.amazonaws.com",
+    user:"adminuser",
+    password:"adminuser",
     database:"palmodata",
     connectionLimit : 10,
 });
