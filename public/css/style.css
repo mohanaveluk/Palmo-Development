@@ -271,3 +271,28 @@ body
 .navbar-light .navbar-nav .nav-link {
   color: rgb(0 0 0 / 65%);
 }
+.contact-number {
+  background-color: #C70039;
+  padding: 10px 19px 10px 10px;
+  font-size: 1.2em;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 3px;
+}
+
+.contact a, .contact a:hover{
+  text-decoration: none;
+}
+
+.single-content{
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.20);
+}
+
+.title-top{
+  margin-top: .75rem;
+}
+
+.fancy-table .table-cell .card .card-body .card-title{
+  margin-top: .75rem;
+  margin-bottom: .75rem;
+}

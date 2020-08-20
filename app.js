@@ -12,7 +12,7 @@ var contactRouter = require('./routes/contact');
 
 
 const app = express();
-const port = 8080;
+const port = 3000;
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
