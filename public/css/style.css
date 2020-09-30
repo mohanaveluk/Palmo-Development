@@ -296,3 +296,13 @@ body
   margin-top: .75rem;
   margin-bottom: .75rem;
 }
+
+table tr td.w-3 {
+  width: 30%;
+}
+table tr td.w-5 {
+  width: 50%;
+}
+table tr td.w-6 {
+  width: 60%;
+}
