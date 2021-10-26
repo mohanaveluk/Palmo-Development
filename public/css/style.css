@@ -306,3 +306,7 @@ table tr td.w-5 {
 table tr td.w-6 {
   width: 60%;
 }
+
+h1.display-6 {
+  font-size: 3rem;
+}
