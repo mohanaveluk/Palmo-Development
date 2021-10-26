@@ -33,7 +33,7 @@ steps:
   volumes:
   - name: 'vol1'
     path: '/nodeappvolume'
-  args: ['tar', '-czvf', 'artifacts.tar.gz', 'app', 'requirements.txt', '/nodeappvolume/buildlog.log']
+  args: ['tar', '-czvf', 'artifacts.tar.gz', 'views', '/nodeappvolume/buildlog.log']
   waitFor: ['fetch-build-log']
   id: 'create-artifacts-zip'
 options:
