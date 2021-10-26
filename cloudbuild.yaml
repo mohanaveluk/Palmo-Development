@@ -4,6 +4,6 @@ steps:
   id: 'build-image-palmoapp'
   waitFor: ['-']  # The '-' indicates that this step begins immediately.
 images:
-- 'gcr.io/$PROJECT_ID/myapp:latest'
-- 'gcr.io/$PROJECT_ID/myapp:$COMMIT_SHA'
-- 'gcr.io/$PROJECT_ID/myapp:$BUILD_ID'
+- 'gcr.io/$PROJECT_ID/palmoapp:latest'
+- 'gcr.io/$PROJECT_ID/palmoapp:$COMMIT_SHA'
+- 'gcr.io/$PROJECT_ID/palmoapp:$BUILD_ID'
